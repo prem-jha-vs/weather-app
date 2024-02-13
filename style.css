@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffffff, #8b8b8b);
+    color: #fff;
+    text-align: center;
+    overflow:visible;
+}
+
+.card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #427869, #463e71da);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: visible;
+    display: inline-table;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-size: 16px;
+    color: #555;
+    background: #ebfffc;
+}
+
+button {
+    width: 30%;
+    padding: 12px;
+    background: linear-gradient(to bottom, #2f80d0, #224e81);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #2a62a1, #1a427dd0);
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(205, 30, 30, 0.82);
+    display: none;
+}
+
+.temp, .city {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.h3 {
+    background: linear-gradient(135deg, #337262, #3e3671d7);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.day{
+    display: flex;
+    justify-content: space-around;
+}
