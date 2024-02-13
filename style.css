@@ -7,7 +7,6 @@ body {
     text-align: center;
     overflow:visible;
 }
-
 .card {
     max-width: 400px;
     margin: 50px auto;
@@ -18,13 +17,11 @@ body {
     overflow: visible;
     display: inline-table;
 }
-
 .search {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 input {
     width: 80%;
     padding: 12px;
@@ -37,7 +34,6 @@ input {
     color: #555;
     background: #ebfffc;
 }
-
 button {
     width: 30%;
     padding: 12px;
@@ -49,27 +45,22 @@ button {
     transition: background 0.3s ease;
     outline: none;
 }
-
 button:hover {
     background: linear-gradient(to bottom, #2a62a1, #1a427dd0);
 }
-
 .weather {
     display: none;
 }
-
 .error {
     text-align: center;
     font-size: 16px;
     color: rgba(205, 30, 30, 0.82);
     display: none;
 }
-
 .temp, .city {
     font-size: 24px;
     margin-bottom: 10px;
 }
-
 .h3 {
     background: linear-gradient(135deg, #337262, #3e3671d7);
     padding: 10px;

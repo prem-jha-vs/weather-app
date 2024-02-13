@@ -1,7 +1,6 @@
 import { checkForecast } from './components/check_forecast.js';
 import { checkWeather } from './components/check_weather.js';
 
-
 const searchInput = document.getElementById("searchInput");
 const searchButton = document.getElementById("searchButton");
 

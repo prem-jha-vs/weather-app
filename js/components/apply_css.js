@@ -3,7 +3,6 @@ export function applyWeatherStyles(city, temp) {
     document.querySelector(".temp").innerHTML = `${Math.round(temp)}°C`;
     document.querySelector(".weather").style.display = "block";
 }
-
 export function applyForecastStyles(threeDayForecast) {
     for (let i = 0; i < 3; i++) {
         document.querySelector(`#day-${i + 1}`).innerHTML = `
